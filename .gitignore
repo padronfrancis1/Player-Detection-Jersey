@@ -1,0 +1,7 @@
+# Ignore virtual environment
+venv/
+
+# Ignore specific files
+test_gpu.py
+train.py
+yolo11n.pt
