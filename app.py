@@ -3,6 +3,8 @@ import easyocr
 import numpy as np
 from ultralytics import YOLO
 
+# OG Change - this is a fix
+
 # Load the trained YOLO model
 model = YOLO("./runs/detect/train/weights/last.pt")
 # model = YOLO("yolov8n.pt")
